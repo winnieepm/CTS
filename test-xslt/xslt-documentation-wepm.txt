@@ -1,0 +1,12 @@
+
+--------TASKS---------
+
+--create an xslt that will transform the tei-encoded file into cts-compliant text within correspondent file
+--ideally these files would be kept in different repo (is this possible?)
+
+
+----------------------
+
+
+
+--- create mini templates that would apply the CTS parts to the general edition
