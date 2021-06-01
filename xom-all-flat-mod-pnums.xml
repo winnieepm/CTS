@@ -1,74 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="cts-compliance.xsl"?>    
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns:xml="http://www.w3.org/XML/1998/namespace">
+     <teiHeader>
+          <fileDesc>
+                <titleStmt>
+                    <title>Arte de las tres lenguas kakchiquel, quiché y ꜩutuhil, 
+                    v.2 Popol vuh; and Escolios a la historia de el origen de los Indios.</title>
+                    <author>Ximénez, Francisco</author>
+                    <author>Nim Chokoj k'ut chuwach Kaweqib' (gran maestro de la palabra ante los Kaweq)</author>
+                    <author>chuwach Nija'ib', ukab' k'u ri' (gran maestro de la palabra ante los Nija'ib era el segundo)</author>
+                    <author>Nim Chokoj Ajaw chuwach Ajaw K'iche', rox Nim Chokoj (gran maestro de la palabra era el tercer Señor ante los Ajaw K'iche)</author>
+                </titleStmt>
 
+               <publicationStmt>
+                    <publisher>The Newberry Library</publisher>
+                    <publisher>le winaq</publisher>
+                    <pubPlace>Chicago, Illinois, USA</pubPlace>
+                    <pubPlace>Iximulew</pubPlace>
+               </publicationStmt>
 
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>Arte de las tres lenguas kakchiquel, quiché y ꜩutuhil, 
-v.2 Popol vuh; and Escolios a la historia de el origen de los Indios.</title>
-<author>Ximénez, Francisco</author>
-<author>Nim Chokoj k'ut chuwach Kaweqib' (gran maestro de la palabra ante los Kaweq)</author>
-<author>chuwach Nija'ib', ukab' k'u ri' (gran maestro de la palabra ante los Nija'ib era el segundo)</author>
-<author>Nim Chokoj Ajaw chuwach Ajaw K'iche', rox Nim Chokoj (gran maestro de la palabra era el tercer Señor ante los Ajaw K'iche)</author>
-</titleStmt>
-<publicationStmt>
-<publisher>The Newberry Library</publisher>
-<publisher>le winaq</publisher>
-<pubPlace>Chicago, Illinois, USA</pubPlace>
-<pubPlace>Iximulew</pubPlace>
-</publicationStmt>
-<sourceDesc>
-<p>An encoded transciption of the Newberry Library's VAULT Ayer MS 1515, volume 2, Folio , Side .
-Based on the transcription provided by online edition of the Popol Wuj hosted by The Ohio State University Libraries at 
-https://library.osu.edu/projects/popolwujs and contained in the PDF document available at
-https://library.osu.edu/projects/popolwuj/pdfs/NotesOnTransPW_Jn_Jl_2007.</p>
-</sourceDesc>
-</fileDesc>
-<encodingDesc>
-<!-- encodingDesc: Describes the relationship between an electronic text and the source or sources 
-from which it was derived. It allows for detailed description of whether (or how) the text was n
-ormalized during transcription, how the encoder resolved ambiguities in the source, what levels of 
-encoding or analysis were applied, and similar matters. The TEI elements used to encode 
-the encoding description are described in section 2.3 The Encoding Description below. -->
-<projectDesc default="false">
-<!-- projectDesc: Describes in detail the aim or purpose for which an electronic file was encoded, 
-together with any other relevant information concerning the process by which it was assembled or 
-collected. -->
-</projectDesc>
-<editorialDecl>
-<!-- editorialDecl: Provides details of the editorial practices applied during the encoding of 
-a text. -->
-</editorialDecl>
-</encodingDesc>
-<profileDesc>
-<langUsage>
-<language ident="quc">K'iche'</language>
-<language ident="spa">Spanish</language>
-</langUsage>
-<creation>
-<!-- Contains information about the creation of a text, e.g. phrases describing 
-the origin of the text, e.g. the date and place of its composition. -->
-<date instant="false">Spring 2017</date>
-</creation>
-</profileDesc>
-</teiHeader>
-<text xml:id="MS1515v2" n="1515.2">
-<body>
-<div xml:lang="quc" type="column">
-<p xml:id="p01">
-<pb xml:id="xom-f01-s1"/>
-<note place="margin-left" type="chapter-heading" anchored="true">
-cap.
-<lb />1.del serde  <note resp="editor">Could have a cross followed by 'sexde' </note>
-<lb /><rs ana="DIOS">Díos</rs>
-</note>
-<lb n="1"/><hi rend="very-large">ARE V XE OHER</hi>
-<lb n="2" rend="hanging"/>Ꜩih varal Quiche vbi.
-</p>
+               <sourceDesc>
+                    <p>An encoded transciption of the Newberry Library's VAULT Ayer MS 1515, volume 2, Folio , Side .
+                    Based on the transcription provided by online edition of the Popol Wuj hosted by The Ohio State University Libraries at 
+                    https://library.osu.edu/projects/popolwujs and contained in the PDF document available at
+                    https://library.osu.edu/projects/popolwuj/pdfs/NotesOnTransPW_Jn_Jl_2007.</p>
+               </sourceDesc>
+          </fileDesc>
+
+          <encodingDesc>
+          <!-- encodingDesc: Describes the relationship between an electronic text and the source or sources 
+          from which it was derived. It allows for detailed description of whether (or how) the text was n
+          ormalized during transcription, how the encoder resolved ambiguities in the source, what levels of 
+          encoding or analysis were applied, and similar matters. The TEI elements used to encode 
+          the encoding description are described in section 2.3 The Encoding Description below. -->
+          <projectDesc default="false">
+          <!-- projectDesc: Describes in detail the aim or purpose for which an electronic file was encoded, 
+          together with any other relevant information concerning the process by which it was assembled or 
+          collected. -->
+          </projectDesc>
+
+          <editorialDecl>
+               <!-- editorialDecl: Provides details of the editorial practices applied during the encoding of 
+               a text. -->
+               </editorialDecl>
+          </encodingDesc>
+
+          <profileDesc>
+               <langUsage>
+                    <language ident="quc">K'iche'</language>
+                    <language ident="spa">Spanish</language>
+               </langUsage>
+
+               <creation>
+                    <!-- Contains information about the creation of a text, e.g. phrases describing 
+                    the origin of the text, e.g. the date and place of its composition. -->
+                    <date instant="false">Spring 2017</date>
+               </creation>
+          </profileDesc>
+     </teiHeader>
+
+     <text xml:id="MS1515v2" n="1515.2">
+
+     <body>
+          <div xml:lang="quc" type="column">
+               <p xml:id="p01">
+                    <pb xml:id="xom-f01-s1"/>
+                    <note place="margin-left" type="chapter-heading" anchored="true">
+                    cap.
+                    <lb />1.del serde  <note resp="editor">Could have a cross followed by 'sexde' </note>
+                    <lb /><rs ana="DIOS">Díos</rs>
+                    </note>
+                    <lb n="1"/><hi rend="very-large">ARE V XE OHER</hi>
+                    <lb n="2" rend="hanging"/>Ꜩih varal Quiche vbi.
+               </p>
+               
 <p xml:id="p02">
 <lb n="3" rend="indent"/><hi rend="large">V</hi>aral xchicaꜩibah vi xchica<pc> –</pc>
 <note place="margin-left" anchored="true"><num rend="large">1.</num></note>
