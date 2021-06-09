@@ -1,7 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="eng">
-  <teiHeader/>
-  <text>
-    <body/>
-  </text>
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+
+
+
+     
+          
+               <title xmlns="" xml:lang="span"/>
+
+               Ximénez, Francisco
+               Nim Chokoj k'ut chuwach Kaweqib' (gran maestro de la palabra ante los Kaweq)
+               chuwach Nija'ib', ukab' k'u ri' (gran maestro de la palabra ante los Nija'ib era el segundo)
+               Nim Chokoj Ajaw chuwach Ajaw K'iche', rox Nim Chokoj (gran maestro de la palabra era el tercer Señor ante los Ajaw K'iche)
+          
+
+          
+               The Newberry Library
+               le winaq
+
+               Chicago, Illinois, USA
+               Iximulew
+          
+
+          
+               An encoded transciption of the Newberry Library's VAULT Ayer MS 1515, volume 2, Folio , Side .
+               Based on the transcription provided by online edition of the Popol Wuj hosted by The Ohio State University Libraries at 
+               https://library.osu.edu/projects/popolwujs and contained in the PDF document available at
+               https://library.osu.edu/projects/popolwuj/pdfs/NotesOnTransPW_Jn_Jl_2007.
+          
+     
+
+
+     
+          
+          
+          
+          
+
+          
+          
+          
+     
+
+     
+          
+               K'iche'
+               Spanish
+          
+
+          
+               
+               Spring 2017
+          
+     
+
+
+</titleStmt>
+    </fileDesc>
+  </teiHeader>
 </TEI>
