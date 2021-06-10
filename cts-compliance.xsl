@@ -13,6 +13,10 @@
                         <titleStmt>
                             <xsl:apply-templates/>
                         </titleStmt>
+
+                        <publicationStmt>
+                            <xsl:apply-templates/>
+                        </publicationStmt>
                     </fileDesc>                    
                 </teiHeader>    
                                    
@@ -20,19 +24,33 @@
         </xsl:template>
 
         <!-- HEADER Templates -->
-        <xsl:template match="tei:titleStmt/tei:title | tei:titleStmt/tei:author[1]">
+        <xsl:template match="tei:titleStmt/tei:title | tei:author[1]">
             <xsl:copy>
                 <xsl:attribute name="xml:lang">span</xsl:attribute>
                 <xsl:apply-templates/>
             </xsl:copy>
         </xsl:template>
 
-        <xsl:template match="tei:titleStmt/tei:author[2] | tei:author[3]">
+        <xsl:template match="tei:titleStmt/tei:author[position() >= 2]">
             <xsl:copy>
                 <xsl:attribute name="xml:lang">quc</xsl:attribute>
                 <xsl:apply-templates/>
             </xsl:copy>
         </xsl:template>
+
+
+<!-- copy from one XSML to another, the respStmt -->
+        <xsl:template match="tei:titleStmt">
+            <xsl:element name="respStmt">
+                
+            </xsl:element>
+        </xsl:template>
+
+                <!-- <xsl:choose>
+                     <xsl:when test="document('xom-all-flat-mod-pnums.xml')/tei:teiHeader/fileDesc/titleStmt/respStmt">
+                        
+                    </xsl:when>
+                 </xsl:choose>  -->
 
 
 </xsl:stylesheet>
