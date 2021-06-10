@@ -20,16 +20,19 @@
         </xsl:template>
 
         <!-- HEADER Templates -->
-        <xsl:template match="tei:title">
-            <xsl:element name="title">
+        <xsl:template match="tei:titleStmt/tei:title | tei:titleStmt/tei:author[1]">
+            <xsl:copy>
                 <xsl:attribute name="xml:lang">span</xsl:attribute>
-               <xsl:value-of select="tei:title"></xsl:value-of>
-            </xsl:element>
-           
-            <!-- <title xml:lang="spa">            
-             </title> -->
-        </xsl:template>                       
+                <xsl:apply-templates/>
+            </xsl:copy>
+        </xsl:template>
 
-        
+        <xsl:template match="tei:titleStmt/tei:author[2] | tei:author[3]">
+            <xsl:copy>
+                <xsl:attribute name="xml:lang">quc</xsl:attribute>
+                <xsl:apply-templates/>
+            </xsl:copy>
+        </xsl:template>
+
 
 </xsl:stylesheet>
