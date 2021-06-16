@@ -11,17 +11,25 @@
                 <teiHeader xml:lang="eng">
                     <fileDesc>
                         <titleStmt>
-                            <xsl:apply-templates/>
+                             <xsl:apply-templates select="//tei:titleStmt"/> 
                         </titleStmt>
 
                         <publicationStmt>
-                            <xsl:apply-templates/>
+                            <xsl:apply-templates select="//tei:publicationStmt[node()]"/>
                         </publicationStmt>
-                    </fileDesc>                    
-                </teiHeader>    
-                                   
+
+                        <sourceDesc>
+                            <xsl:apply-templates select="//tei:sourceDesc"/>
+                        </sourceDesc>
+                    </fileDesc> 
+
+
+                </teiHeader>             
             </TEI>
         </xsl:template>
+
+
+        
 
         <!-- HEADER Templates -->
         <xsl:template match="tei:titleStmt/tei:title | tei:author[1]">
@@ -38,19 +46,31 @@
             </xsl:copy>
         </xsl:template>
 
-
-<!-- copy from one XSML to another, the respStmt -->
-        <xsl:template match="tei:titleStmt">
+        <xsl:template match="tei:titleStmt/tei:author[position() = 4]">
             <xsl:element name="respStmt">
-                
+                <p> PRINT NODE TYPES FROM CTS XML</p>
             </xsl:element>
         </xsl:template>
 
-                <!-- <xsl:choose>
-                     <xsl:when test="document('xom-all-flat-mod-pnums.xml')/tei:teiHeader/fileDesc/titleStmt/respStmt">
-                        
-                    </xsl:when>
-                 </xsl:choose>  -->
+                <!-- Doesn't work. It should pull & print the respStmt tag from the CTS xml file:
+                
+                <xsl:template match="tei:resptStmt/p">
+                    <xsl:apply-templates select="document('lit0001.pw0001.popolwuj-quc.xml')//tei:titleStmt"/>
+                    <xsl:value-of select="//tei:respStmt"></xsl:value-of>
+                </xsl:template> -->
 
+        <xsl:template match="tei:publicationStmt">
+            <xsl:copy-of select="node()"/>
+
+            <xsl:element name="availability">
+                <license>
+                    <xsl:comment> Still being resolved (Aldo) </xsl:comment> 
+                 </license>
+            </xsl:element>
+        </xsl:template>
+
+        <xsl:template match="tei:sourceDesc">
+            <xsl:copy-of select="node ()"/>
+        </xsl:template>
 
 </xsl:stylesheet>

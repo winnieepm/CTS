@@ -3,103 +3,27 @@
   <teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
+               <title xml:lang="span">Arte de las tres lenguas kakchiquel, quiché y ꜩutuhil, 
+               v.2 Popol vuh; and Escolios a la historia de el origen de los Indios.</title>
 
-
-
-     
-          <respStmt xmlns=""/>
-
-          
-               The Newberry Library
-               le winaq
-
-               Chicago, Illinois, USA
-               Iximulew
-          
-
-          
-               An encoded transciption of the Newberry Library's VAULT Ayer MS 1515, volume 2, Folio , Side .
-               Based on the transcription provided by online edition of the Popol Wuj hosted by The Ohio State University Libraries at 
-               https://library.osu.edu/projects/popolwujs and contained in the PDF document available at
-               https://library.osu.edu/projects/popolwuj/pdfs/NotesOnTransPW_Jn_Jl_2007.
-          
-     
-
-
-     
-          
-          
-          
-          
-
-          
-          
-          
-     
-
-     
-          
-               K'iche'
-               Spanish
-          
-
-          
-               
-               Spring 2017
-          
-     
-
-
-</titleStmt>
+               <author xml:lang="span">Ximénez, Francisco</author>
+               <author xml:lang="quc">Nim Chokoj k'ut chuwach Kaweqib' (gran maestro de la palabra ante los Kaweq)</author>
+               <author xml:lang="quc">chuwach Nija'ib', ukab' k'u ri' (gran maestro de la palabra ante los Nija'ib era el segundo)</author>
+               <respStmt xmlns=""><p> PRINT NODE TYPES FROM CTS XML</p></respStmt>
+          </titleStmt>
       <publicationStmt>
+               <publisher>The Newberry Library</publisher>
+               <publisher>le winaq</publisher>
 
-
-
-     
-          <respStmt xmlns=""/>
-
-          
-               The Newberry Library
-               le winaq
-
-               Chicago, Illinois, USA
-               Iximulew
-          
-
-          
-               An encoded transciption of the Newberry Library's VAULT Ayer MS 1515, volume 2, Folio , Side .
+               <pubPlace>Chicago, Illinois, USA</pubPlace>
+               <pubPlace>Iximulew</pubPlace>
+          <availability xmlns=""><license><!-- Still being resolved (Aldo) --></license></availability></publicationStmt>
+      <sourceDesc>
+               <p>An encoded transciption of the Newberry Library's VAULT Ayer MS 1515, volume 2, Folio , Side .
                Based on the transcription provided by online edition of the Popol Wuj hosted by The Ohio State University Libraries at 
                https://library.osu.edu/projects/popolwujs and contained in the PDF document available at
-               https://library.osu.edu/projects/popolwuj/pdfs/NotesOnTransPW_Jn_Jl_2007.
-          
-     
-
-
-     
-          
-          
-          
-          
-
-          
-          
-          
-     
-
-     
-          
-               K'iche'
-               Spanish
-          
-
-          
-               
-               Spring 2017
-          
-     
-
-
-</publicationStmt>
+               https://library.osu.edu/projects/popolwuj/pdfs/NotesOnTransPW_Jn_Jl_2007.</p>
+          </sourceDesc>
     </fileDesc>
   </teiHeader>
 </TEI>
