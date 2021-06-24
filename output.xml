@@ -3,27 +3,35 @@
   <teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
-               <title xml:lang="span">Arte de las tres lenguas kakchiquel, quiché y ꜩutuhil, 
-               v.2 Popol vuh; and Escolios a la historia de el origen de los Indios.</title>
+        <titleStmt>
+                    <title xml:lang="span">Arte de las tres lenguas kakchiquel, quiché y ꜩutuhil, 
+                    v.2 Popol vuh; and Escolios a la historia de el origen de los Indios.</title>
 
-               <author xml:lang="span">Ximénez, Francisco</author>
-               <author xml:lang="quc">Nim Chokoj k'ut chuwach Kaweqib' (gran maestro de la palabra ante los Kaweq)</author>
-               <author xml:lang="quc">chuwach Nija'ib', ukab' k'u ri' (gran maestro de la palabra ante los Nija'ib era el segundo)</author>
-               <respStmt xmlns=""><p> PRINT NODE TYPES FROM CTS XML</p></respStmt>
-          </titleStmt>
+                    <author xml:lang="span">Ximénez, Francisco</author>
+                    <author xml:lang="quc">Nim Chokoj k'ut chuwach Kaweqib' (gran maestro de la palabra ante los Kaweq)</author>
+                    <author xml:lang="quc">chuwach Nija'ib', ukab' k'u ri' (gran maestro de la palabra ante los Nija'ib era el segundo)</author>
+                    <author xml:lang="quc">Nim Chokoj Ajaw chuwach Ajaw K'iche', rox Nim Chokoj (gran maestro de la palabra era el tercer Señor ante los Ajaw K'iche)</author>
+               </titleStmt>
+      </titleStmt>
       <publicationStmt>
-               <publisher>The Newberry Library</publisher>
-               <publisher>le winaq</publisher>
+                    <publisher>The Newberry Library</publisher>
+                    <publisher>le winaq</publisher>
 
-               <pubPlace>Chicago, Illinois, USA</pubPlace>
-               <pubPlace>Iximulew</pubPlace>
-          <availability xmlns=""><license><!-- Still being resolved (Aldo) --></license></availability></publicationStmt>
-      <sourceDesc>
-               <p>An encoded transciption of the Newberry Library's VAULT Ayer MS 1515, volume 2, Folio , Side .
-               Based on the transcription provided by online edition of the Popol Wuj hosted by The Ohio State University Libraries at 
-               https://library.osu.edu/projects/popolwujs and contained in the PDF document available at
-               https://library.osu.edu/projects/popolwuj/pdfs/NotesOnTransPW_Jn_Jl_2007.</p>
-          </sourceDesc>
+                    <pubPlace>Chicago, Illinois, USA</pubPlace>
+                    <pubPlace>Iximulew</pubPlace>
+               <availability xmlns=""><license><!-- Still being resolved (Aldo) --></license></availability></publicationStmt>
     </fileDesc>
   </teiHeader>
+  <text n="urn:cts:mayaLit:lit0001.pw0001.popolwuj-quc" xml:id="MS1515v2">
+    <body xml:lang="quc" n="urn:cts:mayaLit:lit0001.pw0001.popolwuj-quc">
+               <div xmlns="" type="translation">
+                    <div type="textpart" subtype="paragraph" n="1">
+                         
+                         
+                         <lb xmlns="http://www.tei-c.org/ns/1.0" n="1"/><hi xmlns="http://www.tei-c.org/ns/1.0" rend="very-large">ARE V XE OHER</hi>
+                         <lb xmlns="http://www.tei-c.org/ns/1.0" n="2" rend="hanging"/>Ꜩih varal Quiche vbi.
+                    </div>
+               </div>
+          </body>
+  </text>
 </TEI>

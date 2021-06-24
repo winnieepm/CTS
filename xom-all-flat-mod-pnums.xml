@@ -4,14 +4,14 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace">
      <teiHeader>
           <fileDesc>
-                <titleStmt>
+               <titleStmt>
                     <title>Arte de las tres lenguas kakchiquel, quiché y ꜩutuhil, 
                     v.2 Popol vuh; and Escolios a la historia de el origen de los Indios.</title>
                     <author>Ximénez, Francisco</author>
                     <author>Nim Chokoj k'ut chuwach Kaweqib' (gran maestro de la palabra ante los Kaweq)</author>
                     <author>chuwach Nija'ib', ukab' k'u ri' (gran maestro de la palabra ante los Nija'ib era el segundo)</author>
                     <author>Nim Chokoj Ajaw chuwach Ajaw K'iche', rox Nim Chokoj (gran maestro de la palabra era el tercer Señor ante los Ajaw K'iche)</author>
-                </titleStmt>
+               </titleStmt>
 
                <publicationStmt>
                     <publisher>The Newberry Library</publisher>
@@ -127,6 +127,7 @@
 <lb n="1"/>ato qol vi cah vleu cho palo
 <lb />
 </p>
+
 <p xml:id="p03">
 <lb n="2" rend="center"/><hi rend="large">ARE V ꜨIHOXIC VAE</hi>
 <lb n="3" rend="center"/>Cacaꜩinin oc, caca chamam oc

@@ -2,67 +2,136 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns:xml="http://www.w3.org/XML/1998/namespace">
-<!-- <?xml-stylesheet type = "text/xsl" href = "cts-compliance.xsl"?>  -->
+     <teiHeader>
+          <fileDesc>
+               <titleStmt>
+                    <title>Arte de las tres lenguas kakchiquel, quiché y ꜩutuhil, 
+                    v.2 Popol vuh; and Escolios a la historia de el origen de los Indios.</title>
 
-<teiHeader>
-     <fileDesc>
-          <titleStmt>
-               <title>Arte de las tres lenguas kakchiquel, quiché y ꜩutuhil, 
-               v.2 Popol vuh; and Escolios a la historia de el origen de los Indios.</title>
+                    <author>Ximénez, Francisco</author>
+                    <author>Nim Chokoj k'ut chuwach Kaweqib' (gran maestro de la palabra ante los Kaweq)</author>
+                    <author>chuwach Nija'ib', ukab' k'u ri' (gran maestro de la palabra ante los Nija'ib era el segundo)</author>
+                    <author>Nim Chokoj Ajaw chuwach Ajaw K'iche', rox Nim Chokoj (gran maestro de la palabra era el tercer Señor ante los Ajaw K'iche)</author>
+               </titleStmt>
 
-               <author>Ximénez, Francisco</author>
-               <author>Nim Chokoj k'ut chuwach Kaweqib' (gran maestro de la palabra ante los Kaweq)</author>
-               <author>chuwach Nija'ib', ukab' k'u ri' (gran maestro de la palabra ante los Nija'ib era el segundo)</author>
-               <author>Nim Chokoj Ajaw chuwach Ajaw K'iche', rox Nim Chokoj (gran maestro de la palabra era el tercer Señor ante los Ajaw K'iche)</author>
-          </titleStmt>
+               <publicationStmt>
+                    <publisher>The Newberry Library</publisher>
+                    <publisher>le winaq</publisher>
 
-          <publicationStmt>
-               <publisher>The Newberry Library</publisher>
-               <publisher>le winaq</publisher>
+                    <pubPlace>Chicago, Illinois, USA</pubPlace>
+                    <pubPlace>Iximulew</pubPlace>
+               </publicationStmt>
 
-               <pubPlace>Chicago, Illinois, USA</pubPlace>
-               <pubPlace>Iximulew</pubPlace>
-          </publicationStmt>
-
-          <sourceDesc>
-               <p>An encoded transciption of the Newberry Library's VAULT Ayer MS 1515, volume 2, Folio , Side .
-               Based on the transcription provided by online edition of the Popol Wuj hosted by The Ohio State University Libraries at 
-               https://library.osu.edu/projects/popolwujs and contained in the PDF document available at
-               https://library.osu.edu/projects/popolwuj/pdfs/NotesOnTransPW_Jn_Jl_2007.</p>
-          </sourceDesc>
-     </fileDesc>
+               <sourceDesc>
+                    <p>An encoded transciption of the Newberry Library's VAULT Ayer MS 1515, volume 2, Folio , Side .
+                    Based on the transcription provided by online edition of the Popol Wuj hosted by The Ohio State University Libraries at 
+                    https://library.osu.edu/projects/popolwujs and contained in the PDF document available at
+                    https://library.osu.edu/projects/popolwuj/pdfs/NotesOnTransPW_Jn_Jl_2007.</p>
+               </sourceDesc>
+          </fileDesc>
 
 
-     <encodingDesc>
-          <!-- encodingDesc: Describes the relationship between an electronic text and the source or sources 
-          from which it was derived. It allows for detailed description of whether (or how) the text was n
-          ormalized during transcription, how the encoder resolved ambiguities in the source, what levels of 
-          encoding or analysis were applied, and similar matters. The TEI elements used to encode 
-          the encoding description are described in section 2.3 The Encoding Description below. -->
-          <projectDesc default="false">
-          <!-- projectDesc: Describes in detail the aim or purpose for which an electronic file was encoded, 
-          together with any other relevant information concerning the process by which it was assembled or 
-          collected. -->
-          </projectDesc>
+          <encodingDesc>
+               <!-- encodingDesc: Describes the relationship between an electronic text and the source or sources 
+               from which it was derived. It allows for detailed description of whether (or how) the text was n
+               ormalized during transcription, how the encoder resolved ambiguities in the source, what levels of 
+               encoding or analysis were applied, and similar matters. The TEI elements used to encode 
+               the encoding description are described in section 2.3 The Encoding Description below. -->
+               <projectDesc default="false">
+               <!-- projectDesc: Describes in detail the aim or purpose for which an electronic file was encoded, 
+               together with any other relevant information concerning the process by which it was assembled or 
+               collected. -->
+               </projectDesc>
 
-          <editorialDecl>
-          <!-- editorialDecl: Provides details of the editorial practices applied during the encoding of 
-          a text. -->
-          </editorialDecl>
-     </encodingDesc>
+               <editorialDecl>
+               <!-- editorialDecl: Provides details of the editorial practices applied during the encoding of 
+               a text. -->
+               </editorialDecl>
+          </encodingDesc>
 
-     <profileDesc>
-          <langUsage>
-               <language ident="quc">K'iche'</language>
-               <language ident="spa">Spanish</language>
-          </langUsage>
+          <profileDesc>
+               <langUsage>
+                    <language ident="quc">K'iche'</language>
+                    <language ident="spa">Spanish</language>
+               </langUsage>
 
-          <creation>
-               <!-- Contains information about the creation of a text, e.g. phrases describing 
-               the origin of the text, e.g. the date and place of its composition. -->
-               <date instant="false">Spring 2017</date>
-          </creation>
-     </profileDesc>
-</teiHeader>
+               <creation>
+                    <!-- Contains information about the creation of a text, e.g. phrases describing 
+                    the origin of the text, e.g. the date and place of its composition. -->
+                    <date instant="false">Spring 2017</date>
+               </creation>
+          </profileDesc>
+     </teiHeader>
+
+     <text xml:id="MS1515v2" n="1515.2">
+          <body>
+               <div xml:lang="quc" type="column">
+                    <p xml:id="p01">
+                         <pb xml:id="xom-f01-s1"/>
+                         <note place="margin-left" type="chapter-heading" anchored="true">
+                         cap.
+                         <lb />1.del serde  <note resp="editor"> Could have a cross followed by 'sexde' </note>
+                         <lb /><rs ana="DIOS">Díos</rs>
+                         </note>
+                         <lb n="1"/><hi rend="very-large">ARE V XE OHER</hi>
+                         <lb n="2" rend="hanging"/>Ꜩih varal Quiche vbi.
+                    </p>
+
+                    <p xml:id="p02">
+                         <lb n="3" rend="indent"/><hi rend="large">V</hi>aral xchicaꜩibah vi xchica<pc> –</pc>
+                         <note place="margin-left" anchored="true"><num rend="large">1.</num></note>
+                         <lb n="4"/>tiquiba vi oher ꜩih, vticaribal,
+                         <lb n="5"/>vxenabal puch ronohel xban,
+                         <lb n="6"/>pa <rs ana="TINAMIT_K'ICHE'" type="toponym">tinamit quiche</rs>, ramac qui<pc> –</pc>
+                         <lb n="7"/>che vinac; arecut xchicacam
+                         <lb n="8"/>vi vcutunizaxic, vcalahobiza<pc> –</pc>
+                         <lb n="9"/>xic, vꜩihoxic puch euaxibal
+                         <lb n="10"/>zaquiribal rumal <rs ana="TZ'AQOL">ꜩacol</rs> <rs ana="BITOL">bitol</rs>
+                         <lb n="11"/><rs ana="ALOM">alom</rs>, <rs ana="K'AJOLOM">qaholom</rs> quibi <rs ana="JUNAJPU_WUCH">hun ah<pc> –</pc>
+<lb n="12"/>pu vuch</rs>, <rs ana="JUNAJPU_UTIW">hun ahpu vtiu</rs>, <rs ana="SAQI_NIM_AQ_SIS">za<pc> –</pc>
+<lb n="13"/>quinimac ꜩÿz</rs>, <rs ana="TEPEW_Q'UKUMATZ">tepeu, qucumaꜩ</rs>
+<lb n="14"/><rs ana="UK'U'X_CHO">vqux cho</rs>, <rs ana="UK'U'X_PALO">vqux palo</rs>, <rs ana="AJRAXA_LAQ">ah ra<pc> –</pc>
+<lb n="15"/>xalaꜫ</rs>, <rs ana="AJRAXA_TZEL">ah raxaꜩel</rs> chu qha<pc> –</pc>
+<lb n="16"/>xic, rachbixic, rachꜩihoxic
+<lb n="17"/>rÿ <rs ana="IXMUKANE">iyom</rs>, <rs ana="XPIYAKOK">mamom</rs> <rs ana="XPIYAKOK">xpiyacoc</rs>,
+<lb n="18"/><rs ana="IXMUKANE">xmucane</rs> vbi, <rs ana="IXMUKANE">maꜩanel</rs> <rs ana="XPIYAKOK">chu<pc> –</pc>
+<lb n="19"/>quenel</rs> <rs ana="IXMUKANE">camul yiom</rs>, <rs ana="XPIYAKOK">camul
+<lb n="20"/>mamom</rs> chuqhaxic pa quiche
+<note place="margin-left" anchored="true"><num rend="large">2</num></note>
+<lb n="21"/>ꜩih. ta xquiꜩihoh ronohel 
+<lb n="22"/>ruq xquiban chic chizaquil
+<lb n="23"/>qolem, zaquil ꜩih vae xchi<pc> –</pc>
+<lb n="24"/>caꜩibah chupan chic vqha<pc> –</pc>
+<lb n="25"/>bal <rs ana="DIOS">Dios</rs> pa christianoil chic
+<lb n="26"/>xchiquelezah rumal maha<pc> –</pc>
+<lb n="27"/>bi chic ilbal re <rs ana="POPOL_WUJ">popo vvh</rs>. il<pc> –</pc>
+<lb n="28"/>bal zac petenac chaca palo.
+<lb n="29"/>vꜩihoxic camuhibal ilbal zac<pc> –</pc>
+<lb n="30"/>qazlem chuqhaxic. qo nabe
+<lb n="31"/>vuhil, oher ꜩibam puch xa
+<lb n="32"/>eval vvach ilol re, bizol re,
+<lb n="33"/>nim vpeoxic, vꜩihoxic puch,
+<lb n="34"/>ta chiquiz ꜩuk ronohel cah
+<note place="margin-left" anchored="true"><num rend="large">3.</num><lb />prover.<lb />Cap. 8.</note>
+<lb n="35"/>vleu, vcah ꜩucuxic, vcah
+<lb n="36"/>xucutaxic retaxic, vcah
+<lb n="37"/>cheexic, vmeh camaxic, vyuc<pc> –</pc>
+<lb n="38"/>camaxic vpa cah, vpa vleu
+<lb n="39"/>cah ꜩuc, cah xu cut chuqha<pc> –</pc>
+<lb n="40"/>xic rumal ri <rs ana="TZ'AQOL">ꜩacol</rs> <rs ana="BITOL">bitol</rs>
+<lb n="41"/><rs ana="TZ'AQOL">vchuch</rs>, <rs ana="BITOL">vcahau</rs> qazlem vi<pc> –</pc>
+<lb n="42"/>naquirem, abanel, quxla<pc> –</pc>
+<lb n="43"/>nel, alay rech, quxlaay
+<lb n="44"/>rech zaquil amaquil, za<pc> –</pc>
+<lb n="45"/>quil al, zaquil qahol, ah<pc> –</pc>
+<lb n="46"/>biz, ahnaoh chirech ronohel
+<pb xml:id="xom-f01-s2" />
+<lb n="1"/>ato qol vi cah vleu cho palo
+<lb />
+</p>
+
+               </div>
+          </body>
+     </text>
 
 </TEI>
