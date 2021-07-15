@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="spa" level="m">Escolios a la historia de el origen de los Indios
+                </title>
+                <!-- Should we include the Popol Wuj namespace within a <title></title> here? -->
+
+                <author>Ximénez, Francisco</author>
+                <author>Nim Chokoj k'ut chuwach Kaweqib' (gran maestro de la palabra ante los Kaweq)</author>
+                <author>chuwach Nija'ib', ukab' k'u ri' (gran maestro de la palabra ante los Nija'ib era el segundo)</author>
+                <author>Nim Chokoj Ajaw chuwach Ajaw K'iche', rox Nim Chokoj (gran maestro de la palabra era el tercer Señor ante los Ajaw K'iche)</author>
+                <!-- edit madres y padres -->
+
+                <funder>3 Cavaliers Program</funder>
+
+                <sponsor>University of Virginia</sponsor>
+                <sponsor xml:lang="spa">Universidad de Oriente</sponsor>
+                <sponsor xml:lang="spa">Universidad Rafael Landívar</sponsor>
+           
+                <respStmt>
+                    <resp>Lead Researchers, University of Virginia</resp>
+                    <orgName ref="http://multepal.spanitalport.virginia.edu/">Multepal</orgName>
+                    <persName role="principal">Allison Bigelow</persName>
+                    <persName role="principal">Rafael Alvarado</persName>
+                    <!-- What's the difference between <persName role="principal"> and <principal>? -->
+                </respStmt>
+
+                <!-- how many of these do we need?
+                    - U de Oriente
+                    - U Rafael Landívar  
+                    - Encoding team (Aldo, Winnie...?)
+                    - Volunteer students from  courses
+                 -->
+                <respStmt>
+                    <resp>Responsibility Description</resp>
+                    <persName>
+                    <forename></forename>
+                    <surname></surname>
+                    <orgName></orgName>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt> 
+                <authority>University of Virginia</authority>
+                <!-- Should we add U of Oriente and URF? -->
+
+                <idno type="filename">xom-all-flat-mod-pnums.xml</idno> 
+
+                <availability>
+                    <license><!-- Still being resolved --></license>
+                </availability>
+
+                <date> Spring 2017 </date>
+                
+                <publisher>University of Virginia</publisher>
+                <pubPlace>Virginia, USA</pubPlace>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Ximénez, Francisco</author>
+                        <!-- should k'iche' authors be included here, too? -->
+
+                        <title xml:lang="spa">Arte de las tres lenguas kakchiquel, quiché y ꜩutuhil,v.2 Popol vuh; and Escolios a la historia de el origen de los Indios.</title>
+
+                        <imprint>
+                            <publisher>The Newberry Library</publisher>
+                            <!-- <publisher>Le winaq</publisher> -->
+
+                            <pubPlace>Chicago, Illinois, USA</pubPlace>
+                            <!-- <pubPlace>Iximulew</pubPlace> -->
+
+                            <date>1701-1702</date>
+                            <!-- the Newberry website has different dates -->
+
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc> 
+        </fileDesc>
+        
+        <encodingDesc>
+                <editorialDecl>
+                    <p>This text is the Castellano column of the Ximenez edition of the Popol Wuj. Because of nature of CTS's unique identifiers
+                    us to separate it from the K'iche' column, which is stored as another "work" of the text according to CTS structure.</p>
+                </editorialDecl>
+        
+                <p>The following text is encoded in accordance with TEI standards and with the CTS/CITE Architecture</p>
+
+                <refsDecl n="CTS">
+                    <cRefPattern n="paragraph" 
+                                matchPattern="(\w+)" 
+                                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+                        <p>pointer pattern extracting paragraph</p>
+                    </cRefPattern>
+                </refsDecl>
+                <refsDecl>
+                    <refState unit="paragraph"/>
+                </refsDecl>
+            
+            <editorialDecl> 
+                <p></p>
+            </editorialDecl>
+            <!-- what's this second decl for? -->
+        </encodingDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="spa">Spanish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+</TEI>
